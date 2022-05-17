@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+
+body {
+    margin: 100px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/14/18/37/wood-1140564_960_720.jpg);
+}
+
+.book {
+    width: 400px;
+    height: 550px;
+    background-color: brown;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right: solid #a0a0a0 2px;
+    border-bottom: solid #a0a0a0 20px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/09/07/21/51/black-leather-1652717_960_720.jpg);
+    box-shadow: -20px -20px 30px;
+    margin: auto;
+}
+
+.binding,
+.title .subtitle {
+    display: inline-block;
+}
+
+/*
+.binding {
+  width: 5px;
+  height: 540px;
+  background-color: gray;
+  margin-left: 50px;
+}
+*/
+.title {
+    font-size: 50px;
+    /*  vertical-align: top; 
+  margin-top: 100px;*/
+    margin-left: 50px;
+    font-family: "Shadows Into Light";
+    height: 500px;
+    border-left: dashed 3px #202020;
+    padding-top: 50px;
+    padding-left: 15px;
+    /*color: hsl(0 25% 76% );*/
+}
+
+.subtitle {
+    font-size: 25px;
+    /*  vertical-align: top; 
+  margin-top: 100px;*/
+    margin-left: 25px;
+    font-family: "Shadows Into Light";
+    padding-left: 15px;
+}
+
+.subtitle,
+.title {
+    background-image: linear-gradient(90deg, hsl(0 50% 40%), hsl(0 70% 70%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-color: red;
+}
